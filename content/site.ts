@@ -3,7 +3,7 @@
 export const site = {
   name: "Anoop Vijayan", // CONFIRM: full name as it should appear publicly
   role: "AI agent & platform engineer",
-  url: "https://anoopvijayan.dev", // CONFIRM once the domain is bought
+  url: "https://anoopvijayan-dev.github.io/portfolio", // switch to the custom domain once bought
   email: "anoop8vijayan@gmail.com", // CONFIRM: or a hello@ address on the new domain
   links: {
     linkedin: "https://www.linkedin.com/in/", // CONFIRM: profile URL

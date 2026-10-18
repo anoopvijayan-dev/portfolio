@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Trace from "./components/Trace";
 import { site, hero, offers, work, steps, background, stack } from "@/content/site";
 
@@ -7,7 +8,7 @@ export default function Home() {
     <>
       <a className="skip" href="#main">Skip to content</a>
       <header className="masthead wrap">
-        <a href="/" className="wordmark">{site.name}</a>
+        <Link href="/" className="wordmark">{site.name}</Link>
         <nav aria-label="Primary">
           <a href="#work">Work</a>
           <a href="#process" className="nav-optional">How we’d work</a>
